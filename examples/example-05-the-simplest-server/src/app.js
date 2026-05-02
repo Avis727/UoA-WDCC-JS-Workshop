@@ -2,7 +2,7 @@ import http from "http";
 
 // Creates the server and starts it running.
 const server = http.createServer(handleRequest);
-server.listen(3000);
+server.listen(3000); //post
 
 /**
  * Function which handles the HTTP request.
